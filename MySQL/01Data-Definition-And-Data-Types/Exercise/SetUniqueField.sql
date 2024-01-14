@@ -1,0 +1,6 @@
+ALTER TABLE users
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (id);
+
+ALTER TABLE users
+ADD UNIQUE (username);
