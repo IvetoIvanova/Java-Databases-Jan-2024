@@ -1,0 +1,1 @@
+SELECT first_name, middle_name, last_name From employees ORDER BY employee_id;
