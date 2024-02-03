@@ -37,7 +37,7 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./MySQL/07Database-Programmability/Lab)	
   - [Exercise](./MySQL/07Database-Programmability/Exercise)
 
-- [Tasks-From-Exams](./MySQL/08Tasks-From-Exams)
+- [Tasks-From-Exams](./MySQL/Tasks-From-Exams)
 
 ### 2. Spring Data
 
