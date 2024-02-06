@@ -5,7 +5,7 @@ SELECT
 FROM
     students s
         LEFT JOIN
-    students_courses st ON s.id = st.student_id
+    students_courses sc ON s.id = sc.student_id
 WHERE
-    st.course_id IS NULL
+    sc.course_id IS NULL
 ORDER BY password DESC;
