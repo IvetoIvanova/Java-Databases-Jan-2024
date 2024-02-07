@@ -13,9 +13,7 @@ RETURNS DECIMAL(19, 2)
 DETERMINISTIC
 BEGIN
 	DECLARE space_index INT;
-    SET space_index := LOCATE(' ', full_name);
-    
-    
+    SET space_index := LOCATE(' ', full_name);    
 RETURN(
 	SELECT 
     SUM(p.price)
