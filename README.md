@@ -45,6 +45,12 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./SpringData/01DB-Advanced-Database-Apps-Introduction/Lab)		
   - [Exercise](./SpringData/01DB-Advanced-Database-Apps-Introduction/Exercise)
 
+- [02ORM-Fundamentals](./SpringData/02ORM-Fundamentals):
+
+- [03Introduction-to-Hibernate](./SpringData/03Introduction-to-Hibernate):
+  - [Lab](./SpringData/03Introduction-to-Hibernate/Lab)		
+  - [Exercise](./SpringData/03Introduction-to-Hibernate/Exercise)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
