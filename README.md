@@ -50,6 +50,10 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
 - [03Introduction-to-Hibernate](./SpringData/03Introduction-to-Hibernate):
   - [Lab](./SpringData/03Introduction-to-Hibernate/Lab)		
   - [Exercise](./SpringData/03Introduction-to-Hibernate/Exercise)
+ 
+- [04Hibernate-Code-First](./SpringData/04Hibernate-Code-First):
+  - [Lab](./SpringData/04Hibernate-Code-First/Lab)		
+  - [Exercise](./SpringData/04Hibernate-Code-First/Exercise)
 
 ## License
 
