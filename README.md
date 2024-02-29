@@ -55,6 +55,10 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./SpringData/04Hibernate-Code-First/Lab)		
   - [Exercise](./SpringData/04Hibernate-Code-First/Exercise)
 
+- [05Spring-Data-Intro](./SpringData/05Spring-Data-Intro):
+  - [Lab](./SpringData/05Spring-Data-Intro/Lab)		
+  - [Exercise](./SpringData/05Spring-Data-Intro/Exercise)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
