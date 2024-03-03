@@ -58,6 +58,10 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
 - [05Spring-Data-Intro](./SpringData/05Spring-Data-Intro):
   - [Lab](./SpringData/05Spring-Data-Intro/Lab)		
   - [Exercise](./SpringData/05Spring-Data-Intro/Exercise)
+ 
+- [06Spring-Data-Advanced-Querying](./SpringData/06Spring-Data-Advanced-Querying):
+  - [Lab](./SpringData/06Spring-Data-Advanced-Querying/Lab)		
+  - [Exercise](./SpringData/06Spring-Data-Advanced-Querying/Exercise)
 
 ## License
 
