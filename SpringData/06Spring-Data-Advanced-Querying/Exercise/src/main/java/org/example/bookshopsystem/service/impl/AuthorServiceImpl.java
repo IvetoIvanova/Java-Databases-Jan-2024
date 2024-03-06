@@ -70,7 +70,18 @@ public class AuthorServiceImpl implements AuthorService {
     }
 
     @Override
-    public int getTotalCopiesCountFor(String firstName, String lastName) {
-        return authorRepository.countBookCopiesByAuthorName(firstName, lastName);
+    public List<String> findAllAuthorsAndTheirTotalCopies() {
+        return authorRepository
+                .findAll()
+                .stream()
+                .map(author -> String.format("%s %s - %d", author.getFirstName(), author.getLastName(),
+                        author
+                                .getBooks()
+                                .stream()
+                                .map(Book::getCopies)
+                                .reduce(Integer::sum)
+                                .orElse(0)))
+                .sorted(Comparator.comparingInt(s -> -Integer.parseInt(s.substring(s.lastIndexOf("-") + 2))))
+                .collect(Collectors.toList());
     }
 }
