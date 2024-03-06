@@ -17,5 +17,5 @@ public interface AuthorService {
 
     List<String> findAllNamesEndingIn(String ending);
 
-    int getTotalCopiesCountFor(String firstName, String secondName);
+    List<String> findAllAuthorsAndTheirTotalCopies();
 }
