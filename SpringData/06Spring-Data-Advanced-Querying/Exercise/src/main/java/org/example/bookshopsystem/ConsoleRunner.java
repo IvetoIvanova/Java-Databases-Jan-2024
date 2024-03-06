@@ -75,7 +75,8 @@ public class ConsoleRunner implements CommandLineRunner {
 
         BookInfo info = bookService.findInfoByTitle(title);
 
-        System.out.println(info);
+        System.out.println(info.getTitle() + " " + info.getEditionType() + " "
+                + info.getAgeRestriction() + " " + info.getPrice());
     }
 
     private void printTotalBookCopiesByAuthorOrderedByTotalCopies() {
