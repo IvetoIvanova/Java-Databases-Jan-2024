@@ -62,7 +62,7 @@ public class ConsoleRunner implements CommandLineRunner {
 //        findStatsForTitleLength();
 
 //        Exercise10
-//        printTotalBookCopiesForAuthor();
+//        printTotalBookCopiesByAuthorOrderedByTotalCopies();
 
 //        Exercise11
 //        printBookProjection();
@@ -78,13 +78,9 @@ public class ConsoleRunner implements CommandLineRunner {
         System.out.println(info);
     }
 
-    private void printTotalBookCopiesForAuthor() {
-        Scanner scanner = new Scanner(System.in);
-        String[] authorNames = scanner.nextLine().split(" ");
-
-        int count = authorService.getTotalCopiesCountFor(authorNames[0], authorNames[1]);
-
-        System.out.printf("%s %s %d", authorNames[0], authorNames[1], count);
+    private void printTotalBookCopiesByAuthorOrderedByTotalCopies() {
+        authorService.findAllAuthorsAndTheirTotalCopies()
+                .forEach(System.out::println);
     }
 
     private void findStatsForTitleLength() {
