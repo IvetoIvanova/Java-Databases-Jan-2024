@@ -63,6 +63,10 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./SpringData/06Spring-Data-Advanced-Querying/Lab)		
   - [Exercise](./SpringData/06Spring-Data-Advanced-Querying/Exercise)
 
+- [07Spring-Data-Auto-Mapping-Objects](./SpringData/07Spring-Data-Auto-Mapping-Objects):
+  - [Lab](./SpringData/07Spring-Data-Auto-Mapping-Objects/Lab)		
+  - [Exercise](./SpringData/07Spring-Data-Auto-Mapping-Objects/Exercise)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
