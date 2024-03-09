@@ -63,8 +63,7 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./SpringData/06Spring-Data-Advanced-Querying/Lab)		
   - [Exercise](./SpringData/06Spring-Data-Advanced-Querying/Exercise)
 
-- [07Spring-Data-Auto-Mapping-Objects](./SpringData/07Spring-Data-Auto-Mapping-Objects):
-  - [Lab](./SpringData/07Spring-Data-Auto-Mapping-Objects/Lab)		
+- [07Spring-Data-Auto-Mapping-Objects](./SpringData/07Spring-Data-Auto-Mapping-Objects):		
   - [Exercise](./SpringData/07Spring-Data-Auto-Mapping-Objects/Exercise)
  
 - [08JSON-Processing](./SpringData/08JSON-Processing):
