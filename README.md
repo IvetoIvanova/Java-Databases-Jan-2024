@@ -69,6 +69,10 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
 - [08JSON-Processing](./SpringData/08JSON-Processing):
   - [Lab](./SpringData/08JSON-Processing/Lab)		
   - [Exercise](./SpringData/08JSON-Processing/Exercise)
+ 
+- [09XML-Processing](./SpringData/09XML-Processing):
+  - [Lab](./SpringData/09XML-Processing/Lab)		
+  - [Exercise](./SpringData/09XML-Processing/Exercise)
 
 ## License
 
