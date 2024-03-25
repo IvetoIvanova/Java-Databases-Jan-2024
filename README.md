@@ -74,6 +74,8 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Lab](./SpringData/09XML-Processing/Lab)		
   - [Exercise](./SpringData/09XML-Processing/Exercise)
 
+- [Java-Databases-Advanced-Exams](./SpringData/Java-Databases-Advanced-Exams)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
