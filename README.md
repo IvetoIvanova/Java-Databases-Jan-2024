@@ -75,6 +75,7 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
   - [Exercise](./SpringData/09XML-Processing/Exercise)
 
 - [Java-Databases-Advanced-Exams](./SpringData/Java-Databases-Advanced-Exams)
+  - [LibraryManagementSystem](./SpringData/Java-Databases-Advanced-Exams/LibraryManagementSystem)
 
 ## License
 
