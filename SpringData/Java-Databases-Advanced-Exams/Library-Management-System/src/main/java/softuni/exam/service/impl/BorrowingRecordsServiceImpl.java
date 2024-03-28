@@ -81,6 +81,15 @@ public class BorrowingRecordsServiceImpl implements BorrowingRecordsService {
 
     @Override
     public String exportBorrowingRecords() {
-        return null;
+        return this.borrowingRecordRepository
+                .findAllByBookGenreAndOrderByBorrowDateDesc()
+                .stream()
+                .map(br -> String.format("Book title: %s\n" +
+                                "*Book author: %s\n" +
+                                "**Date borrowed: %s\n" +
+                                "***Borrowed by: %s %s\n",
+                        br.getBook().getTitle(), br.getBook().getAuthor(), br.getBorrowDate(),
+                        br.getMember().getFirstName(), br.getMember().getLastName()))
+                .collect(Collectors.joining());
     }
 }
