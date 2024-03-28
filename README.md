@@ -76,6 +76,7 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
 
 - [Java-Databases-Advanced-Exams](./SpringData/Java-Databases-Advanced-Exams)
   - [LibraryManagementSystem](./SpringData/Java-Databases-Advanced-Exams/LibraryManagementSystem)
+  - [Find-A-Star](./SpringData/Java-Databases-Advanced-Exams/Find-A-Star)
 
 ## License
 
