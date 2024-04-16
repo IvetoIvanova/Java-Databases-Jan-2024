@@ -47,8 +47,7 @@ In this folder, you will find solutions to tasks related to MySQL, organized by 
 
 - [02ORM-Fundamentals](./SpringData/02ORM-Fundamentals):
 
-- [03Introduction-to-Hibernate](./SpringData/03Introduction-to-Hibernate):
-  - [Lab](./SpringData/03Introduction-to-Hibernate/Lab)		
+- [03Introduction-to-Hibernate](./SpringData/03Introduction-to-Hibernate):	
   - [Exercise](./SpringData/03Introduction-to-Hibernate/Exercise)
  
 - [04Hibernate-Code-First](./SpringData/04Hibernate-Code-First):
